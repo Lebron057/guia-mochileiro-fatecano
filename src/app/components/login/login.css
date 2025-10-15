@@ -1,14 +1,14 @@
 main {
     display: flex;
     justify-content: space-around;
+    height: 100vh;
 }
 
 .img_learning_bro {
-    width: 650px;
+    width: 660px;
 }
 
 .right-side {
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
