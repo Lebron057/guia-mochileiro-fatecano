@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--verde-principal);
+    height: 92px;
+    padding: 0px 68px;
+}
+
+.titulo-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.titulo-logo__img {
+    width: 50px;
+}
+
+.titulo-logo__text {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    width: 154px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    gap: 5px;
+    align-items: center;
+}

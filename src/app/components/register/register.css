@@ -1,10 +1,12 @@
 main {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.img_learning_bro {
-    width: 650px;
+.img_book-lover {
+    width: 700px;
+    /* height: 903px; */
 }
 
 .right-side {
@@ -23,17 +25,11 @@ main {
     gap: 26px;
 }
 
-.title__img {
-    width: 120px;
-    height: 164.5px;
-}
-
 .title__text {
     width: 234px;
-    height: 62px;
     font-size: 24px;
     text-align: center;
-    margin-bottom: 26px;
+    margin-bottom: 30px;
     color: #263238;
 }
 
@@ -62,7 +58,7 @@ label {
     border-color: #CDD4DA;
 }
 
-.button-entrar {
+.button-cadastrar {
     width: 400px;
     background-color: var(--verde-principal);
     color: white;
@@ -76,7 +72,7 @@ label {
 
 .text__cadastrar {
     color: #858E97;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .link__cadastrar {

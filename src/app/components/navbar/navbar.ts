@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-navbar',
   imports: [RouterModule],
-  templateUrl: './login.html',
-  styleUrl: './login.css'
+  templateUrl: './navbar.html',
+  styleUrl: './navbar.css'
 })
-export class Login {
+export class Navbar {
 
 }
