@@ -69,6 +69,15 @@ label {
     border: solid;
     border-width: 0;
     border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button-cadastrar:hover {
+    background-color: #1DA85F;
+}
+
+.button-cadastrar:active {
+    background-color: #168B4E;
 }
 
 .text__cadastrar {
@@ -76,8 +85,17 @@ label {
     margin-top: 20px;
 }
 
-.link__cadastrar {
+.link__entrar {
     color: var(--verde-principal);
     text-decoration: none;
     font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+
+.link__entrar:hover {
+    color: #1DA85F;
+}
+
+.link__entrar:active {
+    color: #168B4E;
 }

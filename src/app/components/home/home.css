@@ -1,0 +1,134 @@
+main {
+    padding: 0px 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 91px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+}
+
+.cabecalho__title {
+    font-size: 28px;
+    color: #3E3E3E;
+    font-weight: 600;
+}
+
+.cabecalho__subtitle {
+    font-size: 22px;
+    color: #7A7786;
+    font-weight: 400;
+}
+
+.add-turma {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 216px;
+    height: 60px;
+    border-width: 0px;
+    border-radius: 8px;
+    background-color: var(--verde-principal);
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.add-turma:hover {
+    background-color: #1DA85F;
+}
+
+.add-turma:active {
+    background-color: #168B4E;
+}
+
+.add-turma__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 91px;
+}
+
+.cards__card {
+    font-size: 40px;
+    font-weight: 500;
+    color: #3E3E3E;
+
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    border-width: 0px;
+    
+    box-shadow: 2px 4px 10px 2px #00000033;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card__1 {
+    background-color: #E2F4C5;
+}
+.card__1:hover {
+    background-color: #d4e6b8;
+}
+.card__1:active {
+    background-color: #b7c79e;
+}
+
+.card__2 {
+    background-color: #EEE7DA;
+}
+.card__2:hover {
+    background-color: #e0d9cd;
+}
+.card__2:active {
+    background-color: #c9c0b4;
+}
+
+.card__3 {
+    background-color: #A5DD9B;
+}
+.card__3:hover {
+    background-color: #95c98c;
+}
+.card__3:active {
+    background-color: #81ad79;
+}
+
+.card__4 {
+    background-color: #C5EBAA;
+}
+.card__4:hover {
+    background-color: #b5d69a;
+}
+.card__4:active {
+    background-color: #a0bc87;
+}
+
+.card__5 {
+    background-color: #FFFFDD;
+}
+.card__5:hover {
+    background-color: #f2f2ce;
+}
+.card__5:active {
+    background-color: #d9d9b6;
+}
+
+.card__6 {
+    background-color: #AFC8AD;
+}
+.card__6:hover {
+    background-color: #a0b99e;
+}
+.card__6:active {
+    background-color: #8ca38a;
+}
