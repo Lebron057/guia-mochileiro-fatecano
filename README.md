@@ -4,7 +4,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-6f42c1?style=for-the-badge&logo=css3&logoColor=white)
-![Status do Projeto](https://img.shields.io/badge/status-andamento-yellow?style=for-the-badge)
+![Status do Projeto](https://img.shields.io/badge/status-concluido-green?style=for-the-badge)
 
 ## 📝 Descrição
 
